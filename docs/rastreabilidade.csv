@@ -1,0 +1,9 @@
+requisito,modelo,codigo,teste,estado
+REQ-CTRL-AA-001,auroraarm/plant.py,auroraarm/control.py,tests/test_control.py,parcial: erro avaliado por caso de simulacao
+REQ-CTRL-AA-002,auroraarm/simulation.py,auroraarm/control.py,tests/test_control.py,avaliado em referencia de teste
+REQ-CTRL-AA-003,auroraarm/simulation.py,auroraarm/control.py,tests/test_control.py,avaliado em referencia de teste
+REQ-CTRL-AA-004,auroraarm/control.py,firmware/controller_generated.c,tests/test_control.py,parcial: limite corrente testado em cenario
+REQ-SAFE-AA-001,auroraarm/safety.py,firmware/controller_generated.c,tests/test_safety.py,condicional: decaimento de torque assumido 60ms
+REQ-SAFE-AA-002,auroraarm/safety.py,firmware/controller_generated.c,tests/test_safety.py,supervisor logico sem hardware
+REQ-SAFE-AA-003,auroraarm/safety.py,firmware/controller_generated.c,tests/test_safety.py,supervisor logico sem garantia de trajetoria real
+REQ-SAFE-AA-004,auroraarm/plant.py,auroraarm/control.py,tests/test_model.py,limite calculado mas falta guarda de velocidade no firmware

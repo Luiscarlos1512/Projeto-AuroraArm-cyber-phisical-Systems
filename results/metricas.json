@@ -1,0 +1,95 @@
+{
+  "planta": {
+    "A": [
+      [
+        -666.6666666666667,
+        -70.83333333333334
+      ],
+      [
+        202.38095238095238,
+        -0.3571428571428571
+      ]
+    ],
+    "B": [
+      [
+        833.3333333333334
+      ],
+      [
+        0.0
+      ]
+    ],
+    "C_omega": [
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "D": [
+      [
+        0
+      ]
+    ],
+    "autovalores_s-1": [
+      [
+        -644.4086366834565,
+        0.0
+      ],
+      [
+        -22.615172840353143,
+        0.0
+      ]
+    ],
+    "tau_modal_s": [
+      [
+        0.001551810362360515,
+        -0.0
+      ],
+      [
+        0.044218101142064266,
+        -0.0
+      ]
+    ],
+    "tau_eletrica_aprox_s": 0.0014999999999999998,
+    "tau_mecanica_sem_fcem_s": 2.8000000000000003,
+    "posto_controlabilidade": 2,
+    "posto_observabilidade_velocidade": 2,
+    "corrente_450_A": 3.7352941176470584,
+    "tensao_450_V": 41.23823529411764,
+    "folga_corrente_A": 4.264705882352942,
+    "folga_tensao_V": 6.7617647058823565,
+    "amostras_tau_modal_lenta": 22.10905057103213,
+    "limite_velocidade_motor_colaborativa_rad_s": 71.42857142857143
+  },
+  "resposta_sem_carga": {
+    "ref_rad": 0.035,
+    "erro_regime_rad": 2.7755575615628914e-17,
+    "sobressinal_percent": 0.014313000807163783,
+    "acomodacao_2pct_s": 0.136,
+    "max_corrente_A": 7.900000000000001,
+    "max_tensao_V": 8.900145299241192,
+    "corrente_limite_atendida": true
+  },
+  "resposta_com_carga_0_25Nm": {
+    "ref_rad": 0.035,
+    "erro_regime_rad": 2.0816681711721685e-17,
+    "sobressinal_percent": 0.012015267718506233,
+    "acomodacao_2pct_s": 0.152,
+    "max_corrente_A": 7.956369445571181,
+    "max_tensao_V": 9.54934804949749,
+    "corrente_limite_atendida": true
+  },
+  "seguranca_grade": {
+    "casos": 7686,
+    "pior_tempo_ms": 84,
+    "pior_combinacao_ms": [
+      20,
+      2,
+      2,
+      60
+    ],
+    "violacoes": 0,
+    "primeira_violacao": null,
+    "escopo": "grade finita; queda do torque de 60 ms e uma premissa sem validacao fisica"
+  },
+  "observacao": "Posicao da junta 0,035 rad. 450 rad/s e ponto critico do motor, nao modo colaborativo."
+}
